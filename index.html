@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Ai - Chat sbaliyun</title>
+    <title>Ai - zouyu_ChatGPT</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>#chatgpt-response { font-family: "宋体"; font-size: 20px; color: #0000FF; font-weight: bold; }</style>
@@ -44,7 +44,8 @@
         var url = "https://api.openai.com/v1/completions";
         xhr.open("POST", url, true);
         xhr.setRequestHeader("Content-Type", "application/json");
-		    var key1 = "sk-WZt8tbturgx78ouvugnfT3";
+        
+        		    var key1 = "sk-WZt8tbturgx78ouvugnfT3";
 		    var key2 = "BlbkFJD2izUffQd3HZY4a3H7KA";
 		     var prefix = "Bearer ";
         
@@ -82,7 +83,7 @@
           "model": "text-davinci-003"
         });
         console.log(data);
-        await printMessage('正在思考，请等待......');
+        await printMessage('正在访问，请等待......');
 		await xhr.send(data);
       }
 	</script>
@@ -107,8 +108,8 @@
     </header>
     <div class="basic-portfolio-area ptb-10">
       <div class="filter-menu text-center mb-40">
-        <h4>与Ai对话，请描述您的需求-支持中文、英语、日本语等</h4>
-        <h3>请勿频繁访问！</h3>
+        <h4>与Ai对话，请描述您的需求-支持中文、英语、日本语等 请勿频繁访问</h4>
+       
         <h3>由zouyu提供访问支持！</h3>
         
 		<p>xhr.setRequestHeader("Authorization", "Bearer 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");</p>
@@ -137,22 +138,7 @@
           </div>
 		</div>
 		<footer>
-			<div class="basic-footer gray-bg text-center ptb-90">
-				<div class="container">
-					<div class="footer-logo mb-30">
-						<h3><a href="index.html">Open Ai 智能对话</a></h3>
-					</div>
-					
-					<div class="footer-menu mt-30">
-						<p>友情链接</p>
-						<nav>
-							<ul>
-								<li><a href="https://chatgpt.sbaliyun.com/" target="_blank">ChatGPT公益站</a></li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
+			
 		</footer>
 
         <script src="js/vendor/jquery-1.12.0.min.js"></script>
